@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1>THE CODE REVIEW</h1>
+        </div>
+        
+        
+        <div class="fit intro">
+            <h2>Signup for our newsletter</h2>
+            <p class="nl-explanation">Get the latest news on how your code is doing right in your inbox</p>   
+        </div>
+        
+
+    </header>
+    
+    <div class="container">
+        <div class="double-line"></div> 
+    <form>
+        <fieldset class="fit contact-info">
+
+            <legend>Contact Information</legend>
+        
+
+            <div class="flex-label">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="user-fullname" placeholder="Required" required>
+            </div>
+
+            <div class="flex-label">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="user-email" placeholder="Required" required>
+            </div>
+
+            <div class="flex-label">
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" id="phone-number" name="user-phone-number" placeholder="Phone">
+            </div>
+
+            <div class="flex-label">
+            <label for="street-address">Street Address</label>
+            <input type="text" id="street-address" name="user-street-address" placeholder="Street address">
+            </div>
+
+            <div class="flex-label">
+            <label for="city">City</label>
+            <input type="text" id="city" name="user-city" placeholder="City">
+            </div>
+
+            <div class="flex-label">
+                <label for="state">State</label>
+                <select id="state" name="user-state" required>
+                    <option value="" disabled selected>Choose State</option>
+                    <option value="alabama">Alabama</option>
+                    <option value="alaska">Alaska</option>
+                    <option value="arizona">Arizona</option>
+                    <option value="arkansas">Arkansas</option>
+                    <option value="california">California</option>
+                    <option value="colorado">Colorado</option>
+                    <option value="connecticut">Connecticut</option>
+                    <option value="delaware">Delaware</option>
+                    <option value="florida">Florida</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="hawaii">Hawaii</option>
+                    <option value="idaho">Idaho</option>
+                    <option value="illinois">Illinois</option>
+                    <option value="indiana">Indiana</option>
+                    <option value="iowa">Iowa</option>
+                    <option value="kansas">Kansas</option>
+                    <option value="kentucky">Kentucky</option>
+                    <option value="louisiana">Louisiana</option>
+                    <option value="maine">Maine</option>
+                    <option value="maryland">Maryland</option>
+                    <option value="massachusetts">Massachusetts</option>
+                    <option value="michigan">Michigan</option>
+                    <option value="minnesota">Minnesota</option>
+                    <option value="mississippi">Mississippi</option>
+                    <option value="missouri">Missouri</option>
+                    <option value="montana">Montana</option>
+                    <option value="nebraska">Nebraska</option>
+                    <option value="nevada">Nevada</option>
+                    <option value="new_hampshire">New Hampshire</option>
+                    <option value="new_jersey">New Jersey</option>
+                    <option value="new_mexico">New Mexico</option>
+                    <option value="new_york">New York</option>
+                    <option value="north_carolina">North Carolina</option>
+                    <option value="north_dakota">North Dakota</option>
+                    <option value="ohio">Ohio</option>
+                    <option value="oklahoma">Oklahoma</option>
+                    <option value="oregon">Oregon</option>
+                    <option value="pennsylvania">Pennsylvania</option>
+                    <option value="rhode_island">Rhode Island</option>
+                    <option value="south_carolina">South Carolina</option>
+                    <option value="south_dakota">South Dakota</option>
+                    <option value="tennessee">Tennessee</option>
+                    <option value="texas">Texas</option>
+                    <option value="utah">Utah</option>
+                    <option value="vermont">Vermont</option>
+                    <option value="virginia">Virginia</option>
+                    <option value="washington">Washington</option>
+                    <option value="west_virginia">West Virginia</option>
+                    <option value="wisconsin">Wisconsin</option>
+                    <option value="wyoming">Wyoming</option>
+                    <option value="international">International Address</option>
+                </select>
+            </div>
+
+            <div class="flex-label">
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="user-zip" placeholder="Zip/Postal code">
+            </div>
+
+
+        </fieldset>
+
+
+
+        <fieldset class="fit">
+            
+                <legend>Newsletter</legend>
+            
+            <p>Select the newsletters you would like to receive:</p>
+
+            <input type="checkbox" id="html-nl" value="html-news" name="newsletter-type"><label class="boxes" for="html-nl">HTML News</label><br>
+            <input type="checkbox" id="css-nl" value="css-news" name="newsletter-type"><label class="boxes" for="css-nl">CSS News</label><br>
+            <input type="checkbox" id="javascript-nl" value="javascript-news" name="newsletter-type"><label class="boxes" for="javascript-nl">JavaScript News</label>
+        
+            <p class="nl-format">Newsletter format</p>
+
+            <input type="radio" id="html-format" name="format" value="html"><label class="boxes" for="html-format">HTML</label><br>
+            <input type="radio" id="plain-text" name="format" value="plain"><label class="boxes" for="plain-text">Plain text</label><br>
+
+            <label class="free-area" for="topics">Other topics you'd like to hear about</label>
+            <textarea id="topics" name="user-topics" placeholder="Your requests..."></textarea>
+
+        </fieldset>
+        <div class="button">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    </div>
+    <footer>
+        <p>&copy;2020 The Code Review</p>
+
+    </footer>
+
+
+
+
+</body>
+
+
+
+
+</html>
