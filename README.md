@@ -1,2 +1,2 @@
-# techdegree-project-3
+# Project-3
  Mobile first approach form w/flexbox
